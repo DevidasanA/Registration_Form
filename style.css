@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 212, 217);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"]
+.form-group select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(225, 211, 211);
+    border-radius: 4px;
+}
+
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-group input[type="button"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group input[type="button"]:hover {
+    background-color: #0056b3;
+}
